@@ -1,0 +1,136 @@
+/* GENERAL SETTINGS */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    /* color variables */
+}
+body{
+    background-color: black;
+}
+/*First Title*/
+h3{
+    color:#fff;
+    width: 286px;
+    height: 33px;
+    margin:5px;
+}
+/*Container*/
+.container{
+    width: 100%;
+    height: 100%;
+    padding: 0 16px;
+    margin:10px;
+}
+/*All images*/
+.image{
+    width: auto;
+    height: 500px;
+}
+.carousel{
+    width: 100%;
+    height: 500px;
+    
+    overflow: visible;
+    white-space:nowrap;
+}
+.carousel .slide {
+    display: inline-block;
+}
+.carousel_bottom{
+    width: 100%;
+    height:150px;
+    left: 60px;
+    
+    overflow: visible;
+    white-space:nowrap;
+
+    display: flex;
+    justify-content: flex-end;
+}
+.slide{
+    overflow-x: scroll;
+    overflow: hidden;
+}
+
+.slide_bottom{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.image_bottom{
+    width:130px;
+    height:206px;
+   
+}
+.image_bottom2{
+    width:130px;
+    height:206px;
+    margin-right:5px ;
+}
+.arrow
+{
+    position: absolute;
+    right: 100px;
+    top: 290px;
+    bottom: 46%;
+    width: 34px;
+    height: 34px;
+    background-color:transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+
+}
+.top{
+    background-color: red;
+    width: auto;
+    height: 80px;
+    position: absolute;
+    top:50px;
+    margin-left:200px;
+    border-radius: 6%;
+    background: linear-gradient(369deg, transparent 30px, red 0);
+
+}
+.top h4{
+    position: relative;
+    color:#fff;
+    font-size: 23px;
+    text-align: center;
+
+}
+
+
+.row{
+
+    width:120px;
+    height: 30px;
+    margin: 4px;
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+
+}
+.arrow2{
+    position: absolute;
+    right: 60px;
+    top: 650px;
+    bottom: 46%;
+    width: 34px;
+    height: 34px;
+    background-color:transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+
+}
